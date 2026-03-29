@@ -1,0 +1,16 @@
+# Virtual environments
+myenv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+
+
+
+# Frontend
+node_modules/

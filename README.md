@@ -49,3 +49,14 @@ cd frontend
 Install dependencies (React + all libraries like Axios, Tailwind, Toastify, Router) - npm install
 
 Start development server - npm run dev
+
+# Screenshot-
+<img width="1924" height="1024" alt="image" src="https://github.com/user-attachments/assets/34e346dd-f65e-439e-bd2c-53ee86625a07" />
+<img width="1924" height="1024" alt="image" src="https://github.com/user-attachments/assets/da4adc94-2736-4089-9d74-ae06b8258b32" />
+
+<img width="1924" height="1024" alt="image" src="https://github.com/user-attachments/assets/f565ebce-df10-40b6-90fb-8b0e7e722ffe" />
+<img width="1924" height="1024" alt="image" src="https://github.com/user-attachments/assets/079d7479-bb62-4664-be7c-e00f206f7da2" />
+
+
+
+

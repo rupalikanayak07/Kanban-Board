@@ -3,13 +3,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useBoards } from "../context/Globalcontext";
 
+import CreateBooard from "./CreateBooard";
+
 const Sidebar = () => {
   const { boards, loading } = useBoards();
 
   return (
     <div className="w-64 h-screen bg-[#f8fafc] border-r p-4 flex flex-col justify-between">
       <div>
-        <h1 className="text-lg font-bold mb-6">⚡ TaskFlow</h1>
+        <h1 className="text-lg font-bold mb-6">Workspace</h1>
 
         <p className="text-xs text-gray-400 mb-2">YOUR BOARDS</p>
         <ul className="space-y-2">
@@ -27,7 +29,13 @@ const Sidebar = () => {
           ) : (
             <li className="text-gray-400">No boards yet</li>
           )}
+         
+
         </ul>
+        <div className="pt-3">
+           <CreateBooard className='h-[20px] bg-blue-600' />
+        </div>
+
       </div>
     </div>
   );
